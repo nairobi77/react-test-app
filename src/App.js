@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Clock} from "./Clock";
+import {LoginControl} from "./Toggle";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <LoginControl/>
       </header>
     </div>
   );
