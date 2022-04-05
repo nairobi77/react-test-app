@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import {Clock} from "./Clock";
-import {LoginControl} from "./Toggle";
+import {Clock} from "./components/Clock";
+import {LoginControl} from "./components/Toggle";
+import {NumberLists} from "./components/NumberList";
 
 function App() {
+  const numbers = [1, 2, 3, 4, 5, 6]
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +23,7 @@ function App() {
           Learn React
         </a>
         <LoginControl/>
+        <NumberLists numbers={numbers}/>
       </header>
     </div>
   );

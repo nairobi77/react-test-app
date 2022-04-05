@@ -1,5 +1,5 @@
 import React from "react"
-import './Toggle.css';
+import '../Toggle.css';
 
 export function LoginButton(props) {
     return (
