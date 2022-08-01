@@ -1,10 +1,9 @@
-// import logo from './logo.svg';
 import './App.css';
 import {Clock} from "./components/Clock";
 import {LoginControl} from "./components/Toggle";
 import {NumberLists} from "./components/NumberList";
-import {NameForm} from "./components/NameForm";
-import {EssayForm} from "./components/EssayForm";
+import NameForm from "./components/NameForm";
+import {EasyForm} from "./components/EasyForm";
 import {FlavorForm} from "./components/FlavorForm";
 import Counter from "./components/Counter";
 
@@ -20,7 +19,7 @@ function App() {
                     <NameForm/>
                 </div>
                 <LoginControl/>
-                <EssayForm/>
+                <EasyForm/>
                 <FlavorForm/>
                 <NumberLists numbers={numbers}/>
             </header>

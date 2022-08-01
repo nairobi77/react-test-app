@@ -1,5 +1,6 @@
 import React from "react"
 import {FormattedDate} from "./FormattedDate";
+
 export class Clock extends React.Component {
     constructor(props) {
         super(props);
@@ -14,7 +15,7 @@ export class Clock extends React.Component {
     }
 
     componentWillUnmount() {
-        clearInterval(this.timerID);
+        clearInterval(this.timerId);
     }
     tick() {
         this.setState(

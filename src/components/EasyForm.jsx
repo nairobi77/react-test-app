@@ -1,6 +1,6 @@
 import React from "react";
 
-export class EssayForm extends React.Component {
+export class EasyForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
